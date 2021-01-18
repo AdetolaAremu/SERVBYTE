@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin panel</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid sticky">
+            <div class="navbar-brand">SERVBYTE</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background-color: red;"
+                data-toggle="collapse"
+                data-target="#navbarcontents"
+                aria-controls="navbarcontents"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontents">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ORDER TRACKING</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">EXPLORE</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-primary">VENDOR SIGN UP</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-info">DELIVERY SIGN UP</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="service-panel-header text-center mt-4">SERVICE PANEL</h1>
+    </div>
+
+    <div class="container">
+        <div class="report-grids">
+            <div class="report-grid">
+                <p class="mt-4 ml-3">TOTAL AMOUNT EARNED</p>
+                <p>1,000,000</p>
+            </div>
+            <div class="report-grid">
+                <p class="mt-4 ml-3">TOTAL MEALS DELIVERED</p>
+                <p>3,000</p>
+            </div>
+            <div class="report-grid">
+                <p class="mt-4 ml-3">RESTAURANT RATING</p>
+                <p>4.2/5</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h3 class="text-center">ORDER DASHBOARD</h3>
+    </div>
+
+    <div class="container">
+        <div class="order-grids">
+            <a href="#">
+                <div class="order-grid bg-warning">
+                    <p>PENDING ORDERS</p>
+                    <p class="mt-5">8</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="order-grid bg-success">
+                    <p>FILLED ORDERS</p>
+                    <p class="mt-5">1325</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="order-grid bg-danger">
+                    <p>UNFILLED ORDERS</p>
+                    <p class="mt-5">3</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="container">
+        <h3 class="available-meals-header text-center">AVAILABLE MEALS</h3>
+    </div>
+
+    <div class="container">
+        <table class="table table-bordered table-striped" style="width: 40rem;">
+            <thead>
+                <tr>
+                    <th scope="col">Meals</th>
+                    <th scope="col">Modify</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Two wraps of  Amala + One Ogufe meat</td>
+                    <td><button class="btn btn-small btn-secondary">EDIT</button></td>
+                </tr>
+                <tr>
+                    <td>One wrap of Amala + Two Ogufe meat</td>
+                    <td><button class="btn btn-small btn-secondary">EDIT</button></td>
+                </tr>
+                <tr>
+                    <td>One wrap of Amala + Three Ogufe meat</td>
+                    <td><button class="btn btn-small btn-secondary">EDIT</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h3 class="text-center">ADD MEAL FORM</h3>
+    </div>
+
+    <div class="container">
+        <div class="add-meal-form">
+            <form class="form">
+                <div class="picture-of-meal" style="width: 25rem;">
+                    <label for="meal-picture text-center" class="form-label">Meal picture:</label>
+                    <input style="border: 2px solid grey;" type="file" class="form-control" id="meal-picture">
+                </div>
+                <div class="price-of-food mt-2" style="width: 25rem;">
+                    <label for="price-food">Restaurant Address</label>
+                    <input style="border: 2px solid grey;" type="number" class="form-control" id="price-food">
+                </div>
+                <div class="description-of-food" style="width: 33rem;">
+                    <label for="food-description">Description of food:</label>
+                    <input type="text" class="form-control" style="border: 2px solid grey;">
+                </div>
+            </form>
+            <div class="add-meal-button mt-2">
+                <button type="submit" class="btn btn-success btn-sm">ADD MEAL</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="faqs-and-socialmedia">
+                <p class="social-media ml-5"><a href="#">FAQS</a> | <a href="#">Facebook</a> | <a href="#">Whatsapp</a> | <a href="#">Twitter</a> <span class="copyright">(c) Copyright SERVBYTE 2021</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>

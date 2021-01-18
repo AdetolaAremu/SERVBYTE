@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Choose city</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid sticky">
+            <div class="navbar-brand">SERVBYTE</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background-color: red;"
+                data-toggle="collapse"
+                data-target="#navbarcontents"
+                aria-controls="navbarcontents"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontents">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ORDER TRACKING</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">EXPLORE</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-primary">VENDOR SIGN UP</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-info">DELIVERY SIGN UP</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5 mb-2">
+        <div class="states-lga-searchbox" style="display: flex; justify-content: space-between;">
+            <div class="states-lga-lists" style="display: flex;">
+                <div class="states-list">
+                    <label for="choose-state">Choose state</label>
+                    <select class="custom-select" id="choose-state">
+                        <option select>Choose state</option>
+                        <option value="1">Lagos</option>
+                        <option value="2">Abuja</option>
+                        <option value="3">Oyo</option>
+                        <option value="4">Uyo</option>
+                        <option value="5">Rivers</option>
+                        <option value="6">Enugu</option>
+                        <option value="7">Delta</option>
+                        <option value="8">Kano</option>
+                        <option value="9">Umuahia</option>
+                        <option value="10">Anambra</option>
+                        <option value="11">Abia</option>
+                        <option value="12">Imo</option>
+                    </select>
+                </div>
+                <div class="lga-list ml-2">
+                    <label for="choose-lga">Choose LGA</label>
+                    <select class="custom-select" id="choose-lga">
+                        <option select>Choose LGA</option>
+                    </select>
+                </div>
+                <div class="remember-setting ml-2">
+                    <label for="selection-checkbox">Remember selection</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="search-box">
+                <label for="food-search">Search restaurant</label>
+                <span><input type="search"> <span><button class="btn btn-md  btn-success">Search</button></span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="restaurant-cards card">
+            <div class="restaurant-card card-group">
+                <a href="./Restaurant-page.html" class="card">
+                    <div class="card">
+                        <img src="./images/africa3.jfif">
+                        <div class="card-body text-center">
+                            AMALA SKYE
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa3.jfif">
+                        <div class="card-body text-center">
+                            BOLI PEPPER SAUCE
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa3.jfif">
+                        <div class="card-body text-center">
+                            MAMA CALABAR
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa3.jfif">
+                        <div class="card-body text-center">
+                            EAT N BE ALRIGHT
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="restaurant-card card-group mt-3">
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa2.jfif">
+                        <div class="card-body text-center">
+                            PAPA CASS
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa2.jfif">
+                        <div class="card-body text-center">
+                            CHOP N GO
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa2.jfif">
+                        <div class="card-body text-center">
+                            CURRY AND THYME
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="card">
+                    <div class="card">
+                        <img src="./images/africa2.jfif">
+                        <div class="card-body text-center">
+                            BOLI EXPRESS
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="faqs-and-socialmedia">
+                <p class="social-media ml-5"><a href="#">FAQS</a> | <a href="#">Facebook</a> | <a href="#">Whatsapp</a> | <a href="#">Twitter</a> <span class="copyright">(c) Copyright SERVBYTE 2021</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>

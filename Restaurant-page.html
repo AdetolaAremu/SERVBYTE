@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid sticky">
+            <div class="navbar-brand">SERVBYTE</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background-color: red;"
+                data-toggle="collapse"
+                data-target="#navbarcontents"
+                aria-controls="navbarcontents"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontents">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ORDER TRACKING</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">EXPLORE</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-primary">VENDOR SIGN UP</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-info">DELIVERY SIGN UP</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="restaurant-header text-center">
+            <h1>Welcome to <span class="restaurant-name">AMALA SKYE restaurant</span></h1>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="restaurant-details">
+            <table class="table table-bordered">
+                <div class="table">
+                    <thead class="text-center table-secondary">
+                        <tr>
+                            <th scope="col">ESTIMATED DELIVERY TIME</th>
+                            <th scope="col">ORDER STARTS</th>
+                            <th scope="col">ORDER ENDS</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="h6">40mins</td>
+                            <td class="h6">7.30a.m</td>
+                            <td class="h6">4.30p.m</td>
+                        </tr>
+                    </tbody>
+                </div>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="restaurant-foods h6">
+            <div class="card-group">
+                <div class="card">
+                    <img src="./images/africa3.jfif">
+                    <div class="card-body text-center">
+                        <p>Two wraps of Amala + One Ogufe meat + Egusi soup</p>
+                        <div><span class="h5">Price:</span> <span class="food-price">N1000</span></div>
+                        <a href="#"><button class="btn btn-primary btn-md mt-2">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/africa3.jfif">
+                    <div class="card-body text-center">
+                        <p>Four wraps of Amala + Two Ogufe meat +Egusi soup</p>
+                        <div><span class="h5">Price:</span> <span class="food-price">N2000</span></div>
+                        <a href="#"><button class="btn btn-primary btn-md mt-2">ADD TO CART</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group mt-3">
+                <div class="card">
+                    <img src="./images/africa3.jfif">
+                    <div class="card-body text-center">
+                        <p>Two wraps of Amala + One Tilapia Fish + Vegetable soup</p>
+                        <div><span class="h5">Price:</span> <span class="food-price">N1200</span></div>
+                        <a href="#"><button class="btn btn-primary btn-md mt-2">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/africa3.jfif">
+                    <div class="card-body text-center">
+                        <p>Four wraps of Amala + Two Tilapia Fish + Vegetable soup</p>
+                        <div><span class="h5">Price:</span> <span class="food-price">N2300</span></div>
+                        <a href="#"><button class="btn btn-primary btn-md mt-2">ADD TO CART</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="faqs-and-socialmedia">
+                <p class="social-media ml-5"><a href="#">FAQS</a> | <a href="#">Facebook</a> | <a href="#">Whatsapp</a> | <a href="#">Twitter</a> <span class="copyright">(c) Copyright SERVBYTE 2021</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>

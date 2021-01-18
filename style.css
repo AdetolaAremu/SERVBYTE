@@ -1,0 +1,174 @@
+body{
+    background: rgb(239, 242, 243);
+}
+
+.serve-text{
+    margin-top: 70px;
+    color: darkblue;
+}
+
+.service-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-grid > a{
+    text-decoration: none;
+    color: white;
+}
+
+.service-grid:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.service-grid {
+    background: orangered;
+    color: white;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 10rem;
+    font-weight: bolder;
+}
+
+.service-grid p{
+    margin-top: 4rem;
+}
+
+.faqs-and-socialmedia {
+    background: black;
+    margin-top: 40px;
+    height: 50px;
+    width: 85.1rem;
+    margin-left: -30px;
+}
+
+.faqs-and-socialmedia > p{
+    text-decoration: none;
+}
+
+.social-media > a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    margin-left: 45rem;
+    color: white;
+}
+
+/* choose city css */
+.choose-states {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.choose-state {
+    background: orangered;
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 10rem;
+}
+
+.choose-state p {
+    margin-top: 4rem;
+    font-weight: bold;
+}
+
+.choose-state:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.form-header-button {
+    margin-top: 2rem;
+    width: 1100px;
+    height: 48rem;
+    background: white;
+    /* margin-left: -50px; */
+    border: 2px solid white;
+    border-radius: 10px;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    line-height: 2em;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.form-group {
+    width: 600px;
+    margin-left: 180px;
+}
+
+.report-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.report-grid {
+    background: rgb(158, 55, 255);
+    margin-right: 20px;
+    width: 18rem;
+    height: 8rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.order-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.order-grid {
+    margin-right: 20px;
+    width: 15rem;
+    height: 8rem;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.order-grids > a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.order-grid > p {
+    align-content: center;
+    color: white;
+}
+
+.report-grid > p {
+    margin-left: 12rem;
+}
+
+.service-panel-header {
+    color: darkblue;
+}
+
+.available-meals-header {
+    color: darkblue;
+}
+
+.submit-button {
+    margin-left: 25rem;
+}
+
+.faqs-and-socialmedia-summary {
+    background: black;
+    margin-top: 140px;
+    height: 50px;
+    width: 85.1rem;
+    margin-left: -30px;
+}
+
+.faqs-and-socialmedia-summary > p{
+    text-decoration: none;
+}
+
+.restaurant-card > a {
+    text-decoration: none;
+    color: mediumblue;
+    font-weight: 600;
+}

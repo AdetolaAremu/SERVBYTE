@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Index papge</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-white">
+        <div class="container-fluid">
+            <div class="navbar-brand">Oneburner</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background: fuchsia;"
+                data-toggle="dropdown"
+                data-target="#navbarcollapse"
+                aria-controls="navbarcollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a 
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            role="button"
+                            aria-expanded="false"
+                            id="navdropdown"
+                            data-toggle="dropdown"
+                        >
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navdropdown">
+                            <li><a href="#" class="dropdown-item">Product 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Support</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mt-1">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item ml-auto text-black">
+                        <a href="#" class="nav-link"><button class="login-free btn btn-sm btn-secondary">Try for free ></button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-location-group">
+            <div class="form-group">
+                <form class="data-forms mt-5">
+                    <div class="last-first-name">
+                        <span class="last-name form">
+                            <label for="lastname">Last Name</label>
+                            <input style="border: 2px solid grey;" type="text" class="form-control" id="lastname">
+                        </span>
+                        <span class="first-name form">
+                            <label for="firstname">First Name</label>
+                            <input style="border: 2px solid grey;" type="text" class="form-control" id="firstname">
+                        </span>
+                    </div>
+                    <div class="work-mail form mt-2">
+                        <label for="work-email">Work Email</label>
+                        <input style="border: 2px solid grey;" type="email" class="form-control" id="work-email">
+                    </div>
+                    <div class="phone-number form mt-2">
+                        <label for="phonumber">Phone number</label>
+                        <input style="border: 2px solid grey;" type="tel" class="form-control" id="phonenumber" placeholder="234">
+                    </div>
+                    <div class="Product-of-interest form mt-2">
+                        <label for="product-select">Product of interest</label>
+                        <select style="border: 2px solid grey;" class="custom-select" id="product-select">
+                            <option select>Select an option</option>
+                        </select>
+                    </div>
+                    <div class="last-name form mt-2">
+                        <label for="lastname">Company name</label>
+                        <input style="border: 2px solid grey;" type="text" class="form-control" id="lastname">
+                    </div>
+                    <div class="company-size form mt-2">
+                        <label for="comp-size">Company size</label>
+                        <select style="border: 2px solid grey;" id="comp-size" class="custom-select">
+                            <option select>Select an option</option>
+                        </select>
+                    </div>
+                    <div class="textarea mt-2">
+                        <label for="help-text">How can our expert help you?</label>
+                        <textarea style="border: 2px solid grey;" id="help-text" cols="70" rows="0"></textarea>
+                    </div>
+                    <div class="contact-button">
+                        <button type="submit" class="contact-us-button row btn btn-info btn-lg">Contact Us</button>
+                    </div>
+                </form>
+            </div>
+    
+            <!-- opening-texts wil be grid and grid template column will be 1fr 1fr 1fr -->
+            <div class="container">
+                <div class="opening-texts mt-5">
+                    <div class="opening-text mb-3">
+                        <p class="h3 mb-3">Request a call from an expert</p>
+                        <p class="mb-3">Having thoughts on which product works best for you? Fill the form and our experts will reach you</p>
+                    </div>
+                    <div class="office-locations">
+                        <p class="h4 mb-4">Our offices around Africa</p>
+                    </div>
+                    <div class="contact-addresses">
+                        <div class="contact-address">
+                            <div class="nigeria-office">
+                                <p style="font-weight: bold;">NIGERIA</p>
+                                <p>33a, Adeola Odeku, Victoria</p>
+                                <p>Island, Lagos</p>
+                                <p>+234-(0)-80000000000</p>
+                            </div>
+                            <div class="contact-address">
+                                <div class="ghana-office">
+                                    <p style="font-weight: bold;">GHANA</p>
+                                    <p>45, El-Senoussi Street,</p>
+                                    <p>Accra</p>
+                                    <p>+233-(0)-277619819</p>
+                                </div>
+                            </div>
+                            <div class="contact-address">
+                                <div class="sa-office" id="south">
+                                    <p style="font-weight: bold;">SOUTH AFRICA</p>
+                                    <p>474, Cheriton Drive, Port</p>
+                                    <p>Shepstone, Kwazulu-Natal</p>
+                                    <p>+27-(0)-857926978</p>
+                                </div>
+                            </div>
+                            <div class="contact-address">
+                                <div class="egypt-office mt-4">
+                                    <p style="font-weight: bold;">EGYPT</p>
+                                    <p>72, Gameat El-Dewal</p>
+                                    <p>El-Arabia St., Giza.</p>
+                                    <p>+20-(0)-35924295</p>
+                                </div>
+                                <div class="contact-address mt-4">
+                                    <div class="kenya-office">
+                                        <p style="font-weight: bold;">KENYA</p>
+                                        <p>41, Enterprise Rd., Industrial</p>
+                                        <p>Area, Nairobi</p>
+                                        <p>+254-(0)-20536766</p>
+                                    </div>
+                                </div>
+                                <div class="contact-address">
+                                    <div class="tunisia-office mt-4">
+                                        <p style="font-weight: bold;">TUNISIA</p>
+                                        <p>13, Rue de Makthar, Dhraa</p>
+                                        <p>Governorate Kasserine</p>
+                                        <p>+216-(0)-77367410</p>
+                                    </div>
+                                </div>
+                                <div class="contact-address">
+                                    <div class="mali-office mt-4">
+                                        <p style="font-weight: bold;">MALI</p>
+                                        <p>22, Badalabougou Est.,</p>
+                                        <p>Bamako.</p>
+                                        <p>+223-(0)-78175387</p>
+                                    </div>
+                                </div>
+                                <div class="contact-address">
+                                    <div class="tanzania-office mt-4">
+                                        <p style="font-weight: bold;">TANZANIA</p>
+                                        <p>Mbezi Beach, P.O.B: 70339,</p>
+                                        <p>Dar Salaam</p>
+                                        <p>+255-(0)-222120119</p>
+                                    </div>
+                                </div>
+                                <div class="contact-address">
+                                    <div class="togo-office mt-4">
+                                        <p style="font-weight: bold;">TOGO</p>
+                                        <p>10, E rue des Echia,</p>
+                                        <p>Lome</p>
+                                        <p>+228-(0)-22229600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- display wil be flex and justify-content will be space between -->
+    <br>
+    <br>
+
+    <div class="container-fluid mt-5 bg-white">
+        <div class="footer-header mb-4">
+            <div class="oneburner-footer-logo ml-5">
+                <img src="./oneburner.png">
+            </div>
+            <div class="language-translator mr-5">
+                <select class="custom-select">
+                    <option select>English</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-father-index">
+            <div class="footer-first ml-5">
+                <p class="mb-2 h6">No 1 CRM solution in Africa</p>
+                <p style="font-size: small;" class="mb-5">Terms of use | Privacy Policy</p>
+                <p style="font-size: small;">Get in touch</p>
+                <p class="h6">+234-80-000-0000</p>
+                <p><i class="fas fa-facebook"></i> <i class="fas fa-twitter"></i> <i class="fas fa-linkedin"></i> <i class="fas fa-youtube"></i></p>
+            </div>
+            <div class="footer-first-child ml-5">
+                <p>Features</p>
+                <p>Enterprise</p>
+                <p>Security</p>
+                <p>Trust</p>
+                <p>Customer Stories</p>
+                <p>Pricing</p>
+                <p>Integrations</p>
+                <p>Oneburner Partners</p>
+            </div>
+            <div class="footer-third-child">
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Careers</p>
+                <p>In the News</p>
+            </div>
+            <div class="footer-fourth-child">
+                <p>Engineering</p>
+                <p>Financial Services</p>
+                <p>CRM and Sales</p>
+                <p>IT</p>
+                <p>Marketing</p>
+                <p>Customer Support</p>
+                <p>Human Resources</p>
+                <p>Project Management</p>
+                <p>Remote Work</p>
+            </div>
+            <div class="footer-fifth-child">
+                <p>Community</p>
+                <p>Guides</p>
+                <p>Templates</p>
+                <p>Video Tutorials</p>
+                <p>Video Tutorials</p>
+                <p>Professional Services</p>
+                <p>Knowledge Base</p>
+                <p>Blog</p>
+                <p>Webinars</p>
+                <p>Find a Partner</p>
+            </div>
+        </div>
+        <div class="last-footer mt-5 ml-4">
+            <p>(c) 2020 Oneburner.com. All Rights Reserved</p>
+        </div>
+    </div>
+    
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>

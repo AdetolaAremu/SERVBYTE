@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Summary and Checkout</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid sticky">
+            <div class="navbar-brand">SERVBYTE</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background-color: red;"
+                data-toggle="collapse"
+                data-target="#navbarcontents"
+                aria-controls="navbarcontents"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontents">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ORDER TRACKING</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">EXPLORE</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-primary">VENDOR SIGN UP</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <button class="btn btn-md btn-info">DELIVERY SIGN UP</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="checkout-header">
+            <h1 class="text-center">ORDER SUMMARY</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table table-bordered text-center">
+            <thead class="table-primary">
+                <tr>
+                    <th scope="col">Nothing</th>
+                    <th scope="col">Estimations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">ORDER(S)</th>
+                    <td>
+                        <button type="submit" class="btn btn-outline-success">Two wraps of Amala, One goat meat, egusi soup</button>
+                        <button type="submit" class="btn btn-outline-success">Four wraps of Amala, Two tilapia fish, Vegetable soup</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">RESTAURANT AVERAGE DELIVERY TIME</th>
+                    <td>40mins</td>
+                </tr>
+                <tr>
+                    <th scope="row">FOOD COST</th>
+                    <td>N4,000</td>
+                </tr>
+                <tr>
+                    <th scope="row">DELIVERY COST</th>
+                    <td>N500</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">TOTAL</th>
+                    <th scope="row">N4,500</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-3">
+        <div class="checkout-back-button text-center">
+            <button type="submit" class="btn btn-lg btn-danger mx-5">Back</button>
+            <button type="submit" class="btn btn-lg btn-success">CHECKOUT</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="faqs-and-socialmedia-summary">
+                <p class="social-media ml-5"><a href="#">FAQS</a> | <a href="#">Facebook</a> | <a href="#">Whatsapp</a> | <a href="#">Twitter</a> <span class="copyright">(c) Copyright SERVBYTE 2021</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>
